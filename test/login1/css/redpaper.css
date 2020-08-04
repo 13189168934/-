@@ -1,0 +1,67 @@
+.activity {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: 99;
+    opacity: 0;
+    display: none;
+}
+
+.activity_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 510px;
+    height: 410px;
+    background: url(../images/m-bg-1.png) no-repeat;
+    background-size: 100% 100%;
+    transform: translate(-50%, -50%);
+}
+
+.activity_content .activity_btn {
+    position: relative;
+    left: 65px;
+    top: 175px;
+    width: 200px;
+}
+
+@keyframes bear {
+    0% {
+        width: 220px;
+        top: 170px;
+        left: 55px;
+    }
+    100% {
+        width: 200px;
+        top: 175px;
+        left: 65px;
+    }
+}
+
+.activity_btn {
+    animation: bear 0.5s infinite alternate;
+}
+
+.activity_btn img {
+    width: 100%;
+}
+
+.activity_content .close {
+    position: absolute;
+    top: 0;
+    right: -10px;
+    width: 38px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.activity_content .close img {
+    width: 100%;
+}
+
+.activity_content .close:hover {
+    transform: rotate(360deg);
+}

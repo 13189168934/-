@@ -1,0 +1,65 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "36139",
+      "name": "声音",
+      "font_class": "shengyin",
+      "unicode": "f0036",
+      "unicode_decimal": 983094
+    },
+    {
+      "icon_id": "2815738",
+      "name": "笑脸",
+      "font_class": "xiaolian",
+      "unicode": "e555",
+      "unicode_decimal": 58709
+    },
+    {
+      "icon_id": "3775399",
+      "name": "图片",
+      "font_class": "tupian",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "5111261",
+      "name": "头像-实",
+      "font_class": "touxiang-shi",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "5201453",
+      "name": "花 (6)",
+      "font_class": "hua",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "5485666",
+      "name": "图片",
+      "font_class": "tupian1",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "6246303",
+      "name": "信封",
+      "font_class": "xinfeng",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "8777250",
+      "name": "user",
+      "font_class": "icon-test",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/commom.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="./css/cart.css">
+</head>
+
+<body>
+    <!-- 头部开始 -->
+    <header class="header ">
+        <h1>
+            <a href="../index/index.html" title="索菲亚家居"></a>
+        </h1>
+        <div class="search"><input type="text" placeholder="大家都在搜">
+            <div class="icon_search"></div>
+        </div>
+        <div class="login"><a href="./../login/login.html">登录/注册</a></div>
+        <div class="language">
+            <div class="text">English &nbsp;></div>
+            <div class="icon_language"></div>
+        </div>
+    </header>
+
+    <!-- 导航栏开始 -->
+    <nav class="nav clearfix ">
+        <ul class="menu clearfix">
+            <li><a href="../index/index.html">首页</a>
+            </li>
+            <li><a href="javascript:; ">商品分类</a>
+                <ul class="nav_slidedown">
+                    <li><span></span>
+                        <p>卧室</p>
+                    </li>
+                    <li><span></span>
+                        <p>书房</p>
+                    </li>
+                    <li><span></span>
+                        <p>青少年房</p>
+                    </li>
+                    <li><span></span>
+                        <p>客餐厅</p>
+                    </li>
+                    <li><span></span>
+                        <p>阳台</p>
+                    </li>
+                    <li><span></span>
+                        <p>家居用品</p>
+                    </li>
+                    <li><span></span>
+                        <p>全屋定制</p>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="javascript:;">限时福利</a></li>
+            <li><a href="javascript:;">家装攻略</a>
+                <ul class="nav_slidedown">
+                    <li><span></span>
+                        <p>卧室</p>
+                    </li>
+                    <li><span></span>
+                        <p>书房</p>
+                    </li>
+                    <li><span></span>
+                        <p>青少年房</p>
+                    </li>
+                    <li><span></span>
+                        <p>客餐厅</p>
+                    </li>
+                    <li><span></span>
+                        <p>阳台</p>
+                    </li>
+                    <li><span></span>
+                        <p>家居用品</p>
+                    </li>
+                    <li><span></span>
+                        <p>全屋定制</p>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="javascript:;">客户晒家</a></li>
+            <li><a href="javascript:;">品牌实力</a></li>
+            <li><a href="javascript:;">附近门店</a></li>
+            <li><a href="javascript:;">招商加盟</a></li>
+        </ul>
+    </nav>
+    <div class="goodsList">
+        <!-- ---------------------------shop_car---------------------- -->
+        <div class="shop_car">
+            <span class="shouye"><a href="#">首页</a></span> >
+            <span class="gouwuche">购物车</span>
+        </div>
+        <div class="cart-header">
+            <div class="row">
+                <div class=" cell col-1">
+                    <input type="checkbox" class="pick-all" checked>全选
+                </div>
+                <div class="cell col-4">商品信息</div>
+                <div class="cell col-1">单价</div>
+                <div class="num-cell col-1">数量</div>
+                <div class="cell col-1">小计</div>
+                <div class="cell col-1">操作</div>
+            </div>
+
+        </div>
+
+
+
+        <!-- 
+        <div class="item">
+            <input type="checkbox" ${item.checked ? 'checked' : ''} class="pick">
+            <div class="pic">
+                <img src="${item.imgSrc}" alt="">
+            </div>
+            <div class="item_info">
+                <p class="dingzhi">${item.name}</p>
+                <p class="guige">规格：<span>定制诚意金(具体价格以设计方案为准)</span></p>
+            </div>
+            <div class="shopping_price"><span class="qian">￥<class class="total-money">${item.price}</class></span></div>
+            <div class="shopping_num">
+                <a href="javascript:void(0);"><input type="button" value="-" class="shopping_num_left"></a>
+                <input type="text" value="${item.count}" class="txt_shopping_num">
+                <a href="javascript:void(0);"> <input type="button" value="+" class="shopping_num_right"></a>
+            </div>
+            <div class="shopping_subtotal"><span class="qian">￥<class class="total-money">${item.price * item.count}</class></span>
+            </div>
+            <div class="shopping_del">
+                <a href="javascript:void(0);">删除</a>
+            </div>
+        </div> -->
+
+
+        <!-- -----------------------------item-list----------------- -->
+
+        <div class="item-list">
+
+        </div>
+
+        <div class="total-of">
+            <div class="row">
+                <div class=" cell col-1">
+                    <input type="checkbox" class="pick-all" checked>全选
+                </div>
+                <div class="cell col-4 delall"><a href="#">批量删除</a></div>
+                <div class="cell col-1 tc xuanze">
+                    已选<span class="selected">0</span>种商品
+                </div>
+                <div class="cell col-1 heji">合计(不含运费):</div>
+                <div class="cell col-1 tc zongji">
+                    <span class="qianqian">￥</span><span class="total-moneys">0.00</span>
+                </div>
+                <div class="settlement">
+                    <a href="../jiesuan/jiesuan.html">结&nbsp;算</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------结算--------------------- -->
+
+
+    </div>
+
+
+
+
+
+    <!-- 底部开始 -->
+    <div class="footer">
+        <div class="container">
+            <!-- 左 -->
+            <div class="left">
+                <ul>
+                    <li><a href="javascript:;">线下门店</a></li>
+                    <li><a href="javascript:;">招商加盟</a></li>
+                    <li><a href="javascript:;">专题活动</a></li>
+                    <li><a href="javascript:;">定制案例</a></li>
+                    <li><a href="javascript:;">装修攻略</a></li>
+                    <li><a href="javascript:;">效果图库</a></li>
+                    <li><a href="javascript:;">友情链接</a></li>
+                    <li><a href="javascript:;">投诉建议</a></li>
+                    <li><a href="javascript:;">关于我们</a></li>
+                    <li><a href="javascript:;">索菲亚柜类定制专家</a></li>
+                </ul>
+            </div>
+            <!-- 中间 -->
+            <div class="center">
+                <span>客服热线：400-880-2280</span>
+                <span>工作日 8:00-20:00</span>
+                <span>节假日 9:00-17:30</span>
+            </div>
+            <!-- 右 -->
+            <div class="right">
+                <div class="wx">
+                    <img src="./images/wechat_1.jpg" alt="">
+                    <span>官方微信</span>
+                </div>
+                <div class="wx">
+                    <img src="./images/wechat_2.jpg" alt="">
+                    <span>手机商城</span>
+                </div>
+            </div>
+        </div>
+        <div class="links"></div>
+        <div class="copy">
+            <div class="container">
+                <div class="copy_l">
+                    <img src="./images/ren_01.png" alt="">
+                    <img src="./images/ren_02.png" alt="">
+                </div>
+                <div class="copy_r">
+                    <span>Copyright © 2020 索菲亚家居股份有限公司 All Right Reserved .</span>
+                    <a href="javascript:;">粤ICP备10048xxx号</a>
+                    <span>&nbsp;&nbsp; 温馨提示：除国家标准以外，本网站所示产品标准均为企业标准。
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 侧边栏开始 -->
+    <div class="broadside clearfix">
+        <div class="broadside_box">
+            <ul>
+                <li class="kefu">
+                    <a href="javascript:;">
+                        <img src="images/aside_01.png" alt=""><span>2</span>
+                        <br /> 咨询客服
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="images/aside_02.png" alt="" class="kefu"><br /> 免费设计
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="images/aside_03.png" alt="" class="kefu"><br /> 优惠活动
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="images/aside_04.png" alt="" class="kefu"><br /> 购物车
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" id="scroll_top">
+                        <img src="images/aside_05.png" alt=""><br /> TOP
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="flex_right_icon"><img src="images/right-icon.png" alt=""></div>
+    </div>
+
+    <!-- 底边栏  预约框 -->
+    <div class="subscribe">
+        <span>在线报名有礼</span>
+        <input type="text" placeholder="请输入姓名">
+        <input type="text" placeholder="请输入手机号">
+        <select name="" id="">
+            <option>广东省</option>
+            <option>广西省</option>
+        </select>
+        <select name="" id="">
+            <option>广州市</option>
+            <option>梅州市</option>
+        </select>
+        <select name="" id="">
+            <option>白云区</option>
+            <option>天河区</option>
+        </select>
+        <img src="images/fixed_bottom_btn.png" alt="">
+        <img src="images/bottom-close.png" class="bottom-close" alt="">
+    </div>
+
+    <!-- 引用jQ文件 -->
+    <script src="js/jQuery.js"></script>
+    <!-- 引入共用js -->
+    <script src="js/commom.js"></script>
+    <!-- 引入cartJS文件 -->
+    <script src="./js/cart.js"></script>
+    <script>
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,168 @@
+body {
+    background-color: #f0e1da;
+}
+
+.register-box {
+    position: relative;
+    width: 1075px;
+    height: 440px;
+    margin: 130px auto 80px;
+}
+
+.register-kuang {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 326px;
+    height: 436px;
+}
+
+.register {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 326px;
+    height: 436px;
+    background-color: #fff;
+    display: block;
+    text-align: center;
+}
+.register p {
+    color: #c2a5b2;;
+}
+.register h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #DDB97B;
+    margin: 25px 0 12px;
+}
+.register li {
+    margin-left: 40px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.register li p {
+    font-size: 12px;
+    margin-top: 8px;
+}
+.register button,
+.register ul input {
+    width: 250px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #f4eae0;
+}
+.user-register {
+    background: url("../index/btn_yh.png") no-repeat 12px;
+    padding-left: 48px;
+}
+.setPass-register {
+    background: url("../index/btn_mm.png") no-repeat 12px;
+    padding-left: 48px;
+}
+.affirmPass-register {
+    background: url("../index/btn_mm.png") no-repeat 12px;
+    padding-left: 48px;
+}
+.register button {
+    margin-bottom: -5px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ddb97b;
+}
+.register .last-jump {
+    display: block;
+    margin-bottom: 8px;
+    color: #f1b346;
+}
+/* 账号注册 */
+.finish-Rge {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 326px;
+    height: 436px;
+    background-color: #fff;
+    display: none;
+    text-align: center;
+}
+.finish-Rge h2 {
+    font-weight: 300;
+    color: #ddb97b;
+    margin: 24px 0 32px;
+}
+.finish-Rge li {
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 38px;
+}
+.finish-Rge input {
+    width: 148px;
+    height: 48px;
+    border-radius: 5px;
+    background: #f4eae0 url("../index/btn_mob.png") no-repeat 12px;
+    padding-left: 48px;
+}
+.finish-Rge .finish-pho {
+    width: 250px;
+    height: 48px;
+    border-radius: 5px;
+    background: #f4eae0 url("../index/btn_yh.png") no-repeat 12px;
+    padding-left: 48px;
+}
+.finish-Rge img {
+    width: 95px;
+    height: 48px;
+    margin-top: -5px;
+    margin-left: 5px
+}
+.finish-Rge .gain-Code {
+    width: 95px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #ddb97b;
+    color: #fff;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.finish-Rge button {
+    width: 250px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #ddb97b;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.finish-Rge p {
+    text-align: left;
+    margin-left: 38px;
+    margin-top: -10px;
+}
+.finish-user {
+    position: absolute;
+    left: 40px;
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    background-color: #ddb97b;
+    cursor: pointer;
+}
+.finish-user .finish-check {
+    position: absolute;
+    left: -35px;
+    top: 9px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.finish-Rge .finish-Argee {
+    display: inline-block;
+    margin: 0 14px;
+    color: #ddb97b;
+    text-decoration: underline;
+}
+.finish-Rge .finish-Argee:hover{
+    text-decoration: none;
+}
+

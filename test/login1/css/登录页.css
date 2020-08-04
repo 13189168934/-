@@ -1,0 +1,263 @@
+body {
+    background-color: #f0e1da;
+}
+
+.login-box {
+    position: relative;
+    width: 1075px;
+    height: 440px;
+    margin: 130px auto 100px;
+}
+
+.verify {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 326px;
+    height: 436px;
+    background-color: #fff;
+    display: block;
+}
+
+.verify .QRcode {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    background: url("../index/btn_wx.png") no-repeat;
+}
+
+.login-num {
+    position: absolute;
+    top: 44px;
+    left: 56px;
+    margin-bottom: 20px;
+}
+
+.login-num span {
+    color: #e6e5e6;
+    font-size: 16px;
+    margin: 0 24px;
+}
+
+.login-num .num {
+    color: rgb(230, 191, 144);
+}
+
+.login-num a {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* 账号登录开始 */
+
+.login-one {
+    display: block;
+}
+
+.login-input {
+    position: absolute;
+    top: 78px;
+    left: 40px;
+}
+
+.login-input input {
+    width: 248px;
+    height: 46px;
+    border-radius: 5px;
+    background: #f4eae0 url("../index/btn_yh.png") no-repeat 12px;
+    padding-left: 48px;
+}
+
+.login-input .Downinput {
+    margin: 12px 0 22px;
+    background: #f4eae0 url("../index/btn_mm.png") no-repeat 12px;
+}
+
+.login-pass {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    height: 16px;
+    width: 248px;
+}
+
+.login-pass .user {
+    width: 16px;
+    height: 16px;
+    color: #c9b8a8;
+    background-color: #ddb97b;
+    margin-right: 14px;
+}
+
+.login-pass span {
+    position: absolute;
+    top: -3px;
+    left: 25px;
+    color: #999999;
+}
+
+.login-pass a {
+    position: absolute;
+    top: -3px;
+    right: 0;
+    color: #f1b346;
+}
+
+.login-bottom {
+    position: absolute;
+    top: 235px;
+    left: 40px;
+    width: 255px;
+    height: 74px;
+    text-align: center;
+}
+
+.login-bottom .login-btn {
+    width: 100%;
+    height: 48px;
+    font-size: 16px;
+    background-color: #ddb97b;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.login-bottom a {
+    color: #f1b346;
+}
+
+
+/* 账号登录结束 */
+
+
+/* 手机快捷登录 */
+
+.login-two {
+    display: none;
+}
+
+.login-phone {
+    position: absolute;
+    top: 86px;
+    left: 40px;
+}
+
+.login-phone input {
+    width: 248px;
+    height: 46px;
+    border-radius: 5px;
+    background: #f4eae0 url("../index/btn_yh.png") no-repeat 12px;
+    padding-left: 48px;
+}
+
+.phone-yan {
+    position: absolute;
+    top: 153px;
+    left: 36px;
+    width: 258px;
+}
+
+.phone-yan input {
+    width: 148px;
+    height: 48px;
+    border-radius: 5px;
+    background: #f4eae0 url("../index/btn_mob.png") no-repeat 12px;
+    padding-left: 48px;
+    margin-bottom: 20px;
+}
+
+.phone-yan img {
+    width: 94px;
+    height: 48px;
+    margin-left: 12px;
+    margin-top: -8px;
+}
+
+.phone-yan button {
+    width: 94px;
+    height: 48px;
+    margin-left: 12px;
+    margin-top: -8px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #ddb97b;
+}
+
+.logintwo-bottom {
+    position: absolute;
+    top: 282px;
+    left: 40px;
+    width: 255px;
+    height: 74px;
+    text-align: center;
+}
+
+.logintwo-bottom .logintwo-btn {
+    width: 100%;
+    height: 48px;
+    font-size: 16px;
+    background-color: #ddb97b;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.logintwo-bottom a {
+    color: #f1b346;
+}
+
+
+/* 手机快捷登录结束 */
+
+
+/* 二维码登录开始  */
+
+.scanWX {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 326px;
+    height: 436px;
+    background-color: #fff;
+    display: none;
+}
+
+.qie-huan {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    background: url("../index/btn_r_m.png") no-repeat;
+}
+
+.login-three .lg-header {
+    position: absolute;
+    left: 36px;
+    top: 46px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #999999;
+}
+
+.login-three .wx-ma {
+    position: absolute;
+    top: 88px;
+    left: 64px;
+    width: 200px;
+    height: 200px;
+    background: url("../index/wx_h.png") no-repeat;
+}
+
+.scanWX .login-three a {
+    position: absolute;
+    left: 96px;
+    top: 310px;
+    color: #f1b346;
+}

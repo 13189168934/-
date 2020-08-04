@@ -1,0 +1,10 @@
+.erweima {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+body {
+    background: url(../images/footer_bg.jpg);
+}

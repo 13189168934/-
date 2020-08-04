@@ -1,0 +1,273 @@
+body {
+    background: url(../images/footer_bg.jpg);
+    /* padding-bottom: 100px; */
+
+}
+
+/* 购物车 header */
+.shop_car {
+    margin: 30px 0 25px 160px;
+    font-size: 14px;
+}
+
+.cart-header {
+    width: 1200px;
+    height: 75px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    line-height: 75px;
+}
+
+.num-cell {
+    margin-left: 45px;
+}
+
+.row {
+    display: flex;
+    position: relative;
+
+}
+
+.delall {
+    position: absolute;
+    top: 0;
+    left: 165px;
+}
+
+.xuanze {
+    position: absolute;
+    top: 0;
+    left: 560px;
+}
+
+.heji {
+    position: absolute;
+    top: 0;
+    left: 745px;
+}
+
+.zongji {
+    position: absolute;
+    top: 0;
+    left: 893px;
+}
+
+.col-4 {
+    flex: 2;
+    font-size: 14px;
+    margin-left: 150px;
+
+
+}
+
+.col-1 {
+    flex: 1;
+    font-size: 14px;
+}
+
+.pick-all {
+
+    width: 18px;
+    height: 18px;
+    margin: 0 30px 0 50px;
+}
+
+/* .col-4 {
+    margin-left: 147px;
+} */
+
+/* 购物车总计 */
+.total-of {
+    width: 1200px;
+    height: 75px;
+    background-color: #fff;
+    margin: 0 auto;
+    line-height: 75px;
+
+}
+
+
+.settlement {
+    width: 166px;
+    height: 75px;
+    background-color: #ddba7b;
+    font-size: 22px;
+    text-align: center;
+    line-height: 75px;
+
+}
+
+.total-money,
+.selected {
+    color: #E2231A;
+    font-size: 20px;
+}
+
+.settlement a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+/* cartlist */
+
+
+
+.item {
+    position: relative;
+    display: flex;
+    width: 1200px;
+    height: 155px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-bottom: 1px solid #dbb574;
+}
+
+.pick {
+    width: 18px;
+    height: 18px;
+    margin: 0 30px 0 50px;
+    /* line-height: 155px; */
+    margin-top: 70px;
+}
+
+.pic {
+    width: 103px;
+    height: 103px;
+    background-color: burlywood;
+    margin-top: 25px;
+}
+
+.pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.dingzhi {
+    margin: 25px 0 15px 42px;
+}
+
+.dingzhi a {
+    font-size: 14px;
+    color: black;
+
+}
+
+.guige {
+    color: #bdbdbd;
+    margin-left: 42px;
+
+}
+
+.shopping_price {
+    line-height: 155px;
+    margin-left: 79px;
+    position: absolute;
+    top: 0;
+    left: 487px;
+}
+
+.shopping_num {
+    position: absolute;
+    top: 0;
+    left: 633px;
+    line-height: 155px;
+    width: 140px;
+    height: 35px;
+    margin-left: 104px;
+}
+
+.shopping_num_left {
+    cursor: pointer;
+    width: 20px;
+    height: 35px;
+    border: 1px solid #adadad;
+}
+
+.txt_shopping_num {
+    width: 50px;
+    height: 35px;
+    border: 1px solid #adadad;
+    line-height: 35px;
+    text-align: center;
+}
+
+.shopping_num_right {
+    cursor: pointer;
+    width: 20px;
+    height: 35px;
+    border: 1px solid #adadad;
+}
+
+.shopping_subtotal {
+    position: absolute;
+    top: 0;
+    left: 891px;
+    line-height: 155px;
+    margin-left: 6px;
+}
+
+.qian {
+    color: red;
+
+}
+
+.shopping_del {
+    line-height: 155px;
+}
+
+.shopping_del {
+    position: absolute;
+    top: 0;
+    right: 113px;
+    font-size: 14px;
+    color: #000;
+    margin-left: 100px;
+
+}
+
+
+
+.total-moneys {
+
+    color: red;
+    font-size: 24px;
+}
+
+.qianqian {
+    position: relative;
+    color: red;
+}
+
+
+
+input[type=checkbox] {
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 22px;
+    height: 22px;
+    position: relative;
+}
+
+input[type=checkbox]::after {
+    box-sizing: border-box;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 0;
+    content: " ";
+    background-color: #ddba7b;
+    color: #fff;
+    display: inline-block;
+    /* visibility: visible; */
+    padding: 2px 7px;
+    font-size: 12px;
+    /* border-radius: 3px; */
+}
+
+input[type=checkbox]:checked::after {
+    content: "✓";
+}

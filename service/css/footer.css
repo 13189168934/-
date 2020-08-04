@@ -1,0 +1,119 @@
+.footer {
+    padding-top: 100px;
+    background: url(../images/footer_bg.jpg);
+    /* padding-bottom: 100px; */
+}
+
+.footer .container {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 54px 12px 72px 12px;
+}
+
+.footer>.container {
+    border-top: 1px solid #debb84;
+    font-size: 16px;
+}
+
+.footer .left {
+    width: 500px;
+}
+
+.left li {
+    float: left;
+    width: 25%;
+    padding-right: 10px;
+    border-left: 2px solid #dbb455;
+    margin-bottom: 36px;
+}
+
+.left li>a {
+    color: #67423c;
+    padding-left: 10px;
+}
+
+.left li>a:hover {
+    color: #d5aa5c;
+}
+
+.left li:nth-child(10) {
+    width: 50%;
+}
+
+.center {
+    color: #67423c;
+    float: left;
+}
+
+.center span {
+    display: block;
+    text-align: left;
+    height: 54px;
+    white-space: nowrap;
+}
+
+.center span:nth-child(2),
+.center span:nth-child(3) {
+    height: 32px;
+}
+
+.right .wx {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+
+.right .wx img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.right .wx span {
+    color: #67423c;
+}
+
+.right .wx:nth-child(1) {
+    margin-right: 20px;
+}
+
+.links {
+    width: 100%;
+    height: 9px;
+    background: url(../images/bottom_bg.png) repeat-x center center;
+}
+
+.copy {
+    background-color: #e7c992;
+    /* position: absolute;
+        bottom: 0; */
+}
+
+.copy .container {
+    width: 1260px;
+    height: 60px;
+    margin: auto;
+    padding: 0;
+}
+
+.copy .copy_l {
+    float: left;
+    line-height: 60px;
+}
+
+.copy .copy_l img {
+    width: 99px;
+    height: 36px;
+    margin-left: 20px;
+}
+
+.copy .copy_r {
+    float: right;
+    color: #67423c;
+    font-size: 13px;
+    line-height: 60px;
+}

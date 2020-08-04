@@ -1,0 +1,387 @@
+.banner {
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.banner .img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.banner .img li {
+    float: left;
+}
+
+
+/*/ 修改图片大小 /*/
+
+.banner .img img {
+    width: 260px;
+}
+
+
+/*/ 小圆圈 /*/
+
+.banner .num {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 0;
+    text-align: center;
+    font-size: 0px;
+}
+
+.banner .num li {
+    width: 10px;
+    height: 10px;
+    background: #888;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.banner .num li.on {
+    background: #F60;
+}
+
+#ban1 .banner {
+    width: 260px;
+    height: 160px;
+    margin: 0px auto;
+    /* border: 5px solid #000; */
+}
+
+#ban1 .banner .img img {
+    width: 260px;
+    height: 160px;
+}
+
+
+/* 背景 */
+
+@keyframes star {
+    0% {
+        /* transform: rotate(0deg); */
+        background-position: 0 0;
+    }
+    100% {
+        /* transform: rotate(360deg); */
+        background-position: -49px 0;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+body {
+    background-color: rgb(56, 62, 72);
+}
+
+#star_sky {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(2, 31, 51);
+    overflow: hidden;
+}
+
+#star_sky .center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 7px;
+    height: 7px;
+    background-image: url(../images/star.png);
+    animation: star .9s infinite steps(7);
+    transform: translate(-50%);
+}
+
+#star_sky .star {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 7px;
+    height: 7px;
+    background-image: url(../images/star.png);
+    transform-origin: 0 0;
+    /* transform: scale(10); */
+}
+
+#star_sky .meteor {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: solid;
+    opacity: 0;
+    border-width: 2px 0 2px 80px;
+    border-color: transparent transparent transparent rgba(255, 255, 255, 1);
+    transform: rotate(-45deg);
+    box-shadow: 0 0 20px rgba(255, 255, 255, .4);
+    border-radius: 4px 0 0 4px;
+    z-index: 99;
+}
+
+
+/* 客服样式 */
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 700px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #51b1d9;
+    /* overflow: hidden; */
+}
+
+.service_head {
+    height: 65px;
+    background-image: url(../images/15508286888.png);
+    border-bottom: 1px solid #000
+}
+
+.service_head img {
+    position: absolute;
+    top: 15px;
+}
+
+.service_left {
+    width: 640px;
+    height: 635px;
+    border-right: 1px solid #51b1d9;
+    float: left;
+}
+
+.service_right {
+    width: 259px;
+    height: 635px;
+    float: right;
+    position: relative;
+}
+
+.service_right .ban2 {
+    position: absolute;
+    width: 260px;
+    top: 180px;
+    padding: 10px 20px;
+    border-bottom: 1px solid #51b1d9;
+}
+
+.service_right .ban2 span {
+    padding-bottom: 8px;
+    border-bottom: 3px solid #51b1d9;
+}
+
+.service_right .ban2 a {
+    color: #51b1d9;
+}
+
+.service_right .ban2 a:hover {
+    color: #51b1d9;
+}
+
+.content_t {
+    position: relative;
+    width: 639px;
+    height: 500px;
+    padding: 6px 4px 20px;
+    border-bottom: 1px solid #51b1d9;
+    /* overflow-y: scroll; */
+}
+
+.content_t a {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #51b1d9;
+    padding-bottom: 20px;
+}
+
+.content_t .airlines .sanjiao {
+    position: absolute;
+    top: 59px;
+    border: 8px solid transparent;
+    border-right: 8px solid #e0f4e0;
+    left: 39px;
+}
+
+.content_t .airlines .nihao {
+    display: block;
+    width: 75%;
+    line-height: 23px;
+    height: 50px;
+    font-size: 13px;
+    background-color: #e0f4e0;
+    margin-left: 50px;
+    padding: 3px 3px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.content_t .airlines .touxiang {
+    display: block;
+    width: 40px;
+    height: 50px;
+    background-color: #e0f4e0;
+    border-radius: 5px;
+}
+
+.content_t .airlines .name {
+    position: absolute;
+    top: 22px;
+    left: 50px;
+    font-size: 13px;
+}
+
+.content_t .airlines .triangle {
+    position: absolute;
+    top: 49px;
+    border: 8px solid transparent;
+    border-left: 8px solid #e0f4e0;
+    right: 65px;
+}
+
+.content_t .user {
+    position: absolute;
+    /* height: 400px; */
+    right: 20px;
+    width: 75%;
+}
+
+.content_t .user li {
+    position: relative;
+    /* display: none; */
+    margin-top: 10px;
+    height: 80px;
+    text-align-last: left;
+    text-indent: 0;
+}
+
+.content_t .airlines .touxiang {
+    display: block;
+    width: 60px;
+    height: 60px;
+    /* margin-left: 50px; */
+    border-radius: 30px;
+    position: absolute;
+    right: 0;
+    background: url(../images/tt.jpg) no-repeat;
+}
+
+.content_t .user .wenzi {
+    position: absolute;
+    line-height: 23px;
+    /* height: 30px; */
+    font-size: 13px;
+    background-color: #e0f4e0;
+    /* margin-left: 50px; */
+    margin-right: 20px;
+    padding: 3px 3px;
+    border-radius: 5px;
+    text-align: right;
+    right: 58px;
+    top: 46px;
+    /* width: 200px; */
+}
+
+.content_b .bottom_nav {
+    height: 25px;
+    background-color: #f3f3f3;
+    opacity: 0.5;
+}
+
+.content_b .bottom_nav a {
+    padding-left: 8px;
+}
+
+.content_b .bottom_nav a:hover {
+    color: #b3b4b3;
+}
+
+.content_b .dialogue {
+    position: relative;
+    background-color: rgba(255, 255, 255, .3);
+    width: 100%;
+    height: 110px;
+}
+
+.content_b .dialogue span {
+    position: absolute;
+    left: 12px;
+    bottom: 10px;
+    color: #b3b4b3;
+}
+
+.content_b .dialogue button {
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, .1);
+    right: 12px;
+    bottom: 10px;
+    color: #6cf;
+}
+
+
+/* 小于900  高有800*/
+
+@media(max-width:900px) {
+    .service .container {
+        width: 100vw;
+        height: 100vh;
+    }
+    .container .service_head {
+        width: 100%;
+    }
+    .service_left {
+        width: 100%;
+    }
+    .service_left .content_t {
+        width: 100%;
+        border-bottom: none;
+        height: 20vh;
+    }
+    .content_t .airlines span {
+        width: 70%;
+    }
+    .content_b {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    .service_right {
+        display: none;
+    }
+}
+
+
+/* textarea */
+
+textarea {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, .3);
+    resize: none;
+    outline: none;
+    padding: 8px 8px;
+}

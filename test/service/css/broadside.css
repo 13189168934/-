@@ -1,0 +1,51 @@
+.broadside {
+    position: fixed;
+    right: 15px;
+    top: 110px;
+    width: 62px;
+    height: 378px;
+    background: url("../images/aside_bg.png") no-repeat center;
+    background-size: 62px 378px;
+}
+
+.broadside_box {
+    position: absolute;
+    top: 58px;
+    width: 62px;
+    height: 282px;
+}
+
+.broadside_box ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 62px;
+    height: 282px;
+    font-size: 12px;
+}
+
+.broadside_box ul li {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.broadside_box ul li img {
+    width: 50%;
+    height: 60%;
+}
+
+.broadside_box ul .kefu {
+    position: relative;
+}
+
+.broadside_box ul .kefu span {
+    position: absolute;
+    right: 12px;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: #fff;
+}

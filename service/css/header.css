@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+div,
+p,
+ul,
+ol {
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(94, 54, 46);
+}
+
+input,
+textarea {
+    outline: none;
+    resize: none;
+}
+
+.content {
+    height: 2000px;
+}
+
+
+/* 清除浮动 */
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: "";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* 头部制作开始 */
+
+.header {
+    background: #f1edec url(../images/header_bg.jpg) repeat center left !important;
+    overflow: hidden;
+}
+
+h1 {
+    overflow: hidden;
+    float: left;
+    margin-left: 280px;
+}
+
+h1 a {
+    display: block;
+    width: 250px;
+    height: 84px;
+    background: url(../images/logo.png) no-repeat center /250px, 50px;
+}
+
+
+/* 搜索框 */
+
+.search {
+    position: relative;
+    float: left;
+    height: 40px;
+    width: 275px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 5px solid rgb(227, 187, 116);
+    background: #fff;
+    border-radius: 30px 0 30px 0;
+    overflow: hidden;
+}
+
+.search input {
+    display: block;
+    height: 30px;
+    width: 265px;
+    border: 0;
+    /* text-align: center; */
+    text-indent: 2em;
+}
+
+.search .icon_search {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/sprites.png);
+    background-size: 1411px 816px;
+    background-position: -300px 0;
+}
+
+
+/* 登录 */
+
+.login {
+    float: left;
+    width: 80px;
+    height: 30px;
+    margin-left: 60px;
+    margin-top: 20px;
+    border: 1px solid rgb(103, 66, 60);
+    border-radius: 15px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+/* 切换语言 */
+
+.language {
+    position: relative;
+    float: left;
+    width: 110px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid rgb(103, 66, 60);
+    border-radius: 15px;
+    line-height: 30px;
+    text-indent: 3em;
+}
+
+.icon_language {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 10px;
+    background: url(../images/sprites.png) no-repeat;
+    -webkit-background-size: 1411px 816px;
+    background-size: 1411px 816px;
+    background-position: -360px 0;
+}
+
+
+/* 导航栏 */
+
+
+/* 下拉菜单页面 */
+
+.nav {
+    background: #ead3a9 url(../images/nav_bg.jpg) repeat-x center left;
+    /* overflow: hidden; */
+    border-bottom: 3px solid rgb(172, 118, 72);
+    box-shadow: 0 2px 2px 1px rgba(172, 118, 72, .3);
+}
+
+.menu {
+    margin-left: 240px;
+    font-size: 16px;
+    color: rgb(144, 66, 91);
+    line-height: 30px;
+}
+
+.menu>li {
+    float: left;
+}
+
+.menu>li a {
+    display: block;
+    padding: 0 30px;
+}
+
+.menu>li a:hover {
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.menu_down {
+    position: absolute;
+    left: 0;
+    top: 200px;
+}
+
+.menu .menu_down li {
+    float: left;
+}
